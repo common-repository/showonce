@@ -1,0 +1,28 @@
+ShowOnce Plugin InstructionsInventory Version 1.0
+Display notices and or post content once
+
+To display custom ShowOnce post information on a page, simply add our shortcode at the location in the page you would like the ShowOnce post to display. You can see the list of options you can use with ShowOnce below:
+
+Post= (ShowOnce custom post id, example 100, or 100,200,300)
+Show= (Once or Dismiss)
+style= (ShowOnce custom style id, example 12 etc)
+from= (dd/mm/yy)
+to= (dd/mm/yy)
+
+[ShowOnce post=100] will dislay the contents of ShowOnce custom post id 100
+
+This is the most basic implentation of ShowOnce. You can simply place this shortcode anywhere you like in your page or post contents and it will display the posts content of whatever ShowOnce custom post id you select.
+.
+[ShowOnce post=100,200,300] Will display ShowOnce custom post id contents for posts id 100,200 and 300 all at once.
+
+[ShowOnce post=100 show=dismiss] Will display contents of ShowOnce custom post id 100 and will not dissapear until user clicks the dismiss link.
+
+[ShowOnce post=100 show=dismiss style=2] Will display contents of ShowOnce custom post id 100 and will not dissapear until user clicks the dismiss link using the custom css style id 2 (which you will of created yourself)
+
+[ShowOnce post=100 show=dismiss style=2 from=10/11/13] Will display contents of ShowOnce custom post id 100 and will not dissapear until user clicks the dismiss link using the custom css style id 2 (which you will of created yourself) from the date specified onwards with no stop date.
+
+[ShowOnce post=100 show=dismiss style=2 from=10/11/13 to=12/11/13] Will display contents of ShowOnce custom post id 100 and will not dissapear until user clicks the dismiss link using the custom css style id 2 (which you will of created yourself) from the date specified onwards with no stop date.
+
+As default you have a custom style, you can restyle the display of your ShowOnce custom posts by styling the post directly, or you can add a custom style into the ShowOnce Custom styles post type. You can then employ that style using the style=id option.
+
+If you want premium support in making your own style then simply visit the support tab to ask your question and we can reply to you via email, providing you have given your email address to access support. Alternatively email wordpress@iltli.de

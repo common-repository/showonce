@@ -1,0 +1,13 @@
+#adminmenu .toplevel_showonce .wp-menu-image {
+	background: url('../images/icon.png') center center no-repeat !important;
+}
+#adminmenu .toplevel_showonce.wp-menu-open .wp-menu-image {
+	background-image: url('../images/icon-white.png') !important;
+}
+#icon-showonce {
+	background: url('../images/logo.png') left center no-repeat;
+	width: 200px;
+}
+#showonce a {
+	outline: 0;
+}
